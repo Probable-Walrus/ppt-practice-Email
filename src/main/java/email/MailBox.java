@@ -126,7 +126,7 @@ public class MailBox {
         Comparator<TimestampedObject> comp = TimestampComparator.ASCENDING;
         sorted.sort(comp);
 
-        return sorted;
+        return sorted.reversed();
     }
 
     /**
